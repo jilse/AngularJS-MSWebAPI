@@ -12,7 +12,7 @@ namespace AngularCRUD
 	{
 		protected void Application_Start()
 		{
-			System.Data.Entity.Database.SetInitializer(new System.Data.Entity.DropCreateDatabaseIfModelChanges<Models.AngularCRUDContext>());
+			System.Data.Entity.Database.SetInitializer(new System.Data.Entity.DropCreateDatabaseAlways<Models.AngularCRUDContext>());
 			AreaRegistration.RegisterAllAreas();
 			GlobalConfiguration.Configuration.Routes.MapHttpRoute(
 				name: "DefaultApi",
