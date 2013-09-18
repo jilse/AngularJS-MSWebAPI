@@ -7,4 +7,4 @@ I started with an empty MVC4 web API project and the AngularJS seed project. The
 
 I'm not suggesting this is the best way to implement AngularJS and WebAPI, but as a stripped down yet functional CRUD site for someone that has gone through the AngularJS tutorial and wants to take the next step.
 
-I'm running Visual Studio 2012 version 11.0.51106.01 Update 1. Hopefully, you should just have to clone the project and run. 
+I'm running Visual Studio 2012 version 11.0.51106.01 Update 1. Hopefully, you should just have to clone the project, run, and go to /angular/index.html.
