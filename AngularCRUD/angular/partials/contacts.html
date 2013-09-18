@@ -6,10 +6,11 @@
 	Group: <select ng-model="currentObject.ContactGroupID" ng-options="g.ID as g.Name for g in contactGroups"></select><br />
 	<button ng-click="save()">Save</button> <button ng-click="newApiObject()">New</button>
 	<hr/>
-	<span ng-repeat="user in list">
-		<button ng-click="delete(user.ID)">delete</button> <button ng-click="setCurrent(user.ID)">edit</button>{{user.Name}} - {{user.Phone}}<br/>
-	</span>
-	
+	<ul>
+	<li ng-repeat="user in list">
+		<button ng-click="delete(user.ID)">delete</button> <button ng-click="setCurrent(user.ID)">edit</button>{{user.Name}} - {{user.Phone}}
+	</li>
+	</ul>
 </span>
 
 
